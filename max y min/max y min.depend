@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1535418069 source:d:\riella\max y min\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
