@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1536622161 source:d:\riella\cadena de caracter\cadena de caracter\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
