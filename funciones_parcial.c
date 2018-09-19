@@ -66,3 +66,61 @@ float division(float num1, float num2)
     return resultado;
 }
 
+/*****************************************************************************/
+
+/*BAJA:*/
+void baja(ePersona pers[],int cantidad)
+{
+    int i;
+    long int dniAux;
+    char respuesta;
+
+    for(i=0;i<catidad;i++)
+    {
+        if(dniAux==pers[i].dni)
+        {
+            printf("%s %s %d", pers[i].apellido,pers[i].nombre,pers[i].dni);
+
+            do
+            {
+                printf("Eliminar Registro? S/N");
+                fflush(stdin);
+                respuesta=getc();
+            }while(respuesta!="S" && respuesta!="N");
+        }
+    }
+}
+
+/******************************************************************************************/
+
+//*ALTA:*/
+void alta(ePersona pers[])
+{
+    int indice;
+
+        indice= obtenerEspacio(pers, CANT);
+
+            if(indice!=-1)
+            {
+                printf("Nombre:\n");
+                scanf("%s", pers[i].nombre);
+
+                printf("Apellido:\n");
+                fflush(stdin);
+                scanf("%s", pers[i].apellido);
+
+                printf("DNI:\n");
+                scanf("%d", &pers[i].dni);
+
+                printf("Fecha de Nacimiento: (dd/dd/dddd)\n");
+                scanf("%d", &pers[i].fechaNac);
+
+                pers[i].isEmpty = 0;
+            }
+}
+
+/***************************************************************************************/
+
+//*OBTENER ESPACIO:*/
+
+

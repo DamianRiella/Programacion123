@@ -32,7 +32,7 @@ int main()
       switch(opcion)
       {
           case 1:
-                rintf("Legajo:\n");
+                printf("Legajo:\n");
                 scanf("%d", &emple[i].legajo);
 
                 printf("Nombre:\n");

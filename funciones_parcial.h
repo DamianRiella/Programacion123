@@ -1,7 +1,20 @@
 #ifndef FUNCIONES_PARCIAL.H
 #define FUNCIONES_PARCIAL.H
-//**********************************************************************************//*
-stru
+//**********************************************************************************//
+
+struct ePersona{
+    long int dni;
+    int isEmpty;
+    char nombre[31];
+    char apellido[31];
+    struct eFecha fechaNac;
+};
+
+struct eFecha{
+    int dia;
+    int mes;
+    int anio;
+};
 /*
 *\brienf Suma dos numeros.
 *\param num1 el primer numero a sumar.
